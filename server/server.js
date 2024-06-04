@@ -17,8 +17,8 @@ const corsOptions = {
     const allowedOrigins = [
       "http://localhost:5173",
       "http://localhost:4173",
-      "https://api.everydayexplorerblog.com",
-      "https://www.api.everydayexplorerblog.com",
+      "https://everydayexplorerblog.com",
+      "https://www.everydayexplorerblog.com",
     ];
     const isAllowed = allowedOrigins.includes(origin);
     callback(null, isAllowed ? origin : false);
